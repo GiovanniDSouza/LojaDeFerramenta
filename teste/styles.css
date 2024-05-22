@@ -1,0 +1,67 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+.modal-content {
+    background-color: #020202;
+    margin: 15% auto;
+    padding: 20px;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px rgba(255, 255, 255, 0.432);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgba(250, 7, 7, 0.986);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#QrCodeImg{
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+}
+
+.controleBox{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#gerar-qrcode{
+    cursor: pointer;
+}
+#gerar-qrcode:hover{
+    background-color: rgb(0, 102, 255);
+    color: white;    
+}
+#alert{
+    position: absolute;
+    border-radius: 10px;
+    width: 380px;
+    height: 80px;
+    text-align: center;
+    background-color: #020202;
+    color: whitesmoke;
+    margin-top: 30px;
+    margin-left: 760px;
+    font-size: 20px;
+    box-shadow: 3px 5px 10px rgba(255, 255, 255, 0.432);
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar Compra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="finalizar-compra">
+        <span>Total:</span>
+        <span id="preco-total">R$ 0.00</span>
+        <button id="finalizar-compra-btn">Finalizar Compra</button>
+    </div>
+
+    <div class="modal" id="modal">
+        <div id="alert"></div>
+        <div class="modal-content">
+            <span class="close" id="close">&times;</span>
+            <div class="controleBox">
+                <input type="text" id="name-usuario" placeholder="Digite seu nome">
+                <input type="tel" id="numero-usuario" placeholder="Digite seu número de telefone">
+                <button id="gerar-qrcode">Gerar QR Code</button>
+                <div id="qrcode"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
