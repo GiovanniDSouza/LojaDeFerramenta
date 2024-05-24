@@ -813,6 +813,10 @@ html, body{
   
   /* Conteúdo do modal */
   .modal-contentInfo {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 10px;
     background-color: #b9b9b9; /* Cor de fundo do modal */
     margin: 15% auto; /* Centraliza o modal verticalmente */
