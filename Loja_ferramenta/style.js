@@ -95,6 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
 modalClose.addEventListener("click", function() {
     modal.style.display = "none";
     document.getElementById("alert").style.display = "none";
+    document.getElementById("preco-totalTwo").innerHTML = "R$ 0.00";
 });
 });
 
@@ -139,8 +140,12 @@ gerarQRCodeBtn .addEventListener("click", function() {
     document.getElementById("gerar-qrcode").style.display = "none";
     document.getElementById("qrcode").style.display = "block";
     document.getElementById("myModal").style.display = "none";
+    document.getElementById("carrinho-items").innerHTML = "";
+    document.getElementById("preco-total").innerHTML = "R$ 0.00";
+    
 });
 });
+
 
 document.addEventListener('DOMContentLoaded', function() {
   // Obtém todos os elementos com a classe "controleDaImg"
